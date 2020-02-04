@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+    
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+<LinearLayout 
+    android:orientation="vertical"
+	android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:contentDescription="Interface Support"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ialert_mobile" 
+        android:layout_margin="10dip"
+        android:scaleType="fitXY"/>
+
+  	<ImageButton
+		android:id="@+id/interfaceButton"
+		android:contentDescription="Temp Button"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	   	android:layout_margin="10dip"
+	    android:background="@drawable/selector_interface_support"/>  
+	    
+	<ImageButton
+		android:id="@+id/testButton"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	   	android:layout_margin="10dip"
+	    android:background="@drawable/selector_clear_pages"/>  
+	    
+	<ImageButton
+		android:id="@+id/optionsButton"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	   	android:layout_margin="10dip"
+	    android:background="@drawable/selector_options"/>  
+   	
+ 
+</LinearLayout>    
+</ScrollView>
+</LinearLayout>
